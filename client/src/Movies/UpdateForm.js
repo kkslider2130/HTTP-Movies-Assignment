@@ -49,7 +49,7 @@ const UpdateForm = props => {
 
   return (
     <div className="form-div">
-      <h2>Update Movie</h2>
+      <h2 className="form-title">Update Movie</h2>
       {props.movie.length && (
         <form onSubmit={handleSubmit}>
           <label htmlFor="title">Title</label>

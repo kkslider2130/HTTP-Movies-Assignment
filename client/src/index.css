@@ -129,3 +129,27 @@ body {
   background: rgb(255, 148, 148);
   cursor: pointer;
 }
+.buttons-div {
+  display: flex;
+  justify-content: center;
+}
+.add-button {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.add-button:hover {
+  background: rgb(77, 77, 77);
+  cursor: pointer;
+}
+
+.form-title {
+  text-align: center;
+}
